@@ -1,4 +1,4 @@
-.team {
+.team-section {
   background: #f5f4fa;
 }
 .section__title {
@@ -11,11 +11,23 @@
   color: var(--team-title-color);
 }
 .team {
-  display: flex;
+  //display: flex;
+  @media screen and(min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
 }
 .team__item {
   & + & {
+    //margin-left: 30px;
+  }
+  @media screen and(min-width:768px) {
+    width: calc(100% / 2 - 30px);
     margin-left: 30px;
+  }
+  @media screen and(min-width:1200px) {
+    width: calc(100% / 4 - 30px);
   }
 }
 .team__employe {
