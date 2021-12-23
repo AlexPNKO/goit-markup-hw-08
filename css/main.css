@@ -548,6 +548,7 @@ ul {
 
 .team-section {
   background: #f5f4fa;
+  padding: 94px 0;
 }
 
 .section__title {
@@ -565,6 +566,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .team__item {
+    width: 448px;
+    padding-bottom: 30px;
   }
 }
 
