@@ -445,10 +445,6 @@ ul {
   margin: -1px;
 }
 
-.features {
-  display: flex;
-}
-
 @media screen and (min-width: 768px) {
   .features {
     display: flex;
@@ -463,6 +459,9 @@ ul {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
