@@ -50,13 +50,13 @@ ul {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 448px;
+    width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 768px;
   }
 }
 
@@ -447,14 +447,14 @@ ul {
 
 @media screen and (min-width: 480px) {
   .features {
-    width: 448px;
+    width: 480px;
     margin-top: 30px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .features {
-    width: 720px;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -481,7 +481,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .features__item {
-    width: 448px;
+    width: 480px;
     margin-top: 30px;
   }
 }
@@ -604,17 +604,23 @@ ul {
   color: var(--team-title-color);
 }
 
+@media screen and (min-width: 479px) {
+  .team {
+    width: 479px;
+    margin-top: 30px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .team {
-    width: 448px;
+    width: 480px;
     margin-top: 30px;
-    padding-left: 0px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .team {
-    width: 720px;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -628,9 +634,16 @@ ul {
   }
 }
 
+@media screen and (min-width: 479px) {
+  .team__item {
+    width: 479px;
+    margin-top: 30px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .team__item {
-    width: 448px;
+    width: 480px;
     margin-top: 30px;
   }
 }
@@ -732,18 +745,9 @@ ul {
   margin-bottom: 50px;
 }
 
-@media screen and (min-width: 480px) {
-  .clients {
-    width: 448px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .clients {
-    width: 720px;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -753,15 +757,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .clients {
     width: 1200px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .clients__item {
-    width: calc(100% / 2 - 30px);
-    height: 92px;
-    margin-left: 30px;
-    margin-top: 30px;
+    display: flex;
   }
 }
 
