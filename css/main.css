@@ -446,13 +446,13 @@ ul {
 }
 
 .features {
-  margin-bottom: -30px;
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
   .features {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     margin-left: -30px;
   }
 }
@@ -463,13 +463,6 @@ ul {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.features__item {
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -503,7 +496,6 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--qualities-text-color);
-  margin-bottom: 30px;
 }
 
 .section__title {
