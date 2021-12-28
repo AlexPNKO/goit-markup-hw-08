@@ -11,14 +11,30 @@
   margin: -1px;
 }
 .functions {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
+  //margin-bottom: 50px;
+  //display: flex;
+  //justify-content: center;
+  @media screen and(min-width:480px) {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: center;
+  }
+  @media screen and(min-width:768px) {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and(min-width:1200px) {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
 }
 .functions__item {
-  & + & {
-    margin-left: 8px;
-  }
+  //& + & {
+  //margin-left: 8px;}
+  margin: 7px;
 }
 .functions__button {
   cursor: pointer;

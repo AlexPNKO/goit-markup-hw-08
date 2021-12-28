@@ -1,8 +1,6 @@
 .hero {
   padding: 0px 0px 0px 0px;
   text-align: center;
-  padding: 200px 0px;
-  max-width: 1600px;
   padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -14,12 +12,37 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  @media screen and(min-width:480px) {
+    max-width: 480px;
+    max-height: 400px;
+    padding: 118px 0px;
+  }
+  @media screen and(min-width:768px) {
+    max-width: 768px;
+    max-height: 400px;
+    padding: 118px 0px;
+  }
+  @media screen and(min-width:1200px) {
+    max-width: 1600px;
+    max-height: 600px;
+    padding: 200px 0px;
+  }
 }
 .hero__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   color: var(--hero-pre-title-color);
+  @media screen and(min-width:480px) {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+  @media screen and(min-width:768px) {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+  @media screen and(min-width:1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 .hero__button {
   margin-top: 30px;
@@ -34,6 +57,17 @@
   color: var(--button-title-color);
   background-color: #2196f3;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
+
+  @media screen and(min-width:480px) {
+    font-size: 16px;
+    line-height: 1.87;
+  }
+  @media screen and(min-width:768px) {
+    font-size: 16px;
+    line-height: 1.87;
+  }
+  @media screen and(min-width:1200px) {
+    font-size: 16px;
+    line-height: 1.87;
+  }
 }
