@@ -539,6 +539,12 @@ ul {
   color: var(--qualities-text-color);
 }
 
+@media screen and (max-width: 1199px) {
+  .about__section {
+    display: none;
+  }
+}
+
 .section__title {
   font-weight: 700;
   font-size: 36px;
