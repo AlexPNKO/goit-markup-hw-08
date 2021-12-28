@@ -448,7 +448,7 @@ ul {
 @media screen and (min-width: 480px) {
   .features {
     width: 480px;
-    margin: -15px;
+    margin: -30px -15px;
   }
 }
 
@@ -483,7 +483,7 @@ ul {
 @media screen and (min-width: 480px) {
   .features__item {
     width: calc(100% / 1 - 30px);
-    margin: 15px;
+    margin: 30px 15px;
   }
 }
 
@@ -606,7 +606,7 @@ ul {
 @media screen and (min-width: 480px) {
   .team {
     width: 480px;
-    margin: -15px;
+    margin: -30px -15px;
   }
 }
 
@@ -630,7 +630,7 @@ ul {
 @media screen and (min-width: 480px) {
   .team__item {
     width: calc(100% / 1 - 30px);
-    margin: 15px;
+    margin: 30px 15px;
   }
 }
 
