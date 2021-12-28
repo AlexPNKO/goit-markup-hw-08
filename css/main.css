@@ -615,6 +615,10 @@ ul {
   color: var(--qualities-text-color);
 }
 
+.about__section {
+  padding-top: 0px;
+}
+
 @media screen and (max-width: 1199px) {
   .about__section {
     display: none;
