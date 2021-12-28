@@ -482,7 +482,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .features__item {
-    width: 480px;
+    width: calc(100% / 1 - 30px);
     margin: 15px;
   }
 }
@@ -629,7 +629,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .team__item {
-    width: 480px;
+    width: calc(100% / 1 - 30px);
     margin: 15px;
   }
 }

@@ -11,14 +11,12 @@
 }
 .clients {
   @media screen and(min-width:480px) {
-    //width: 448px;
     width: 480px;
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
   @media screen and(min-width:768px) {
-    //width: 720px;
     width: 768px;
     display: flex;
     flex-wrap: wrap;
@@ -44,8 +42,6 @@
   @media screen and(min-width:1200px) {
     width: calc(100% / 6 - 30px);
     height: 92px;
-    //& + & {
-    //margin-left: 30px;}
     margin: 15px;
   }
 }
