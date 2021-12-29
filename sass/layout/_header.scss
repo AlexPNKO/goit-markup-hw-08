@@ -17,6 +17,24 @@
 .logo__dark {
   color: #212121;
 }
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.menu-button .is-open .icon-close {
+  display: block;
+}
+.menu-button .is-open .icon-menu {
+  display: none;
+}
+.icon-close {
+  display: none;
+}
+.menu-container {
+}
 .menu-nav {
   display: flex;
   margin-left: 93px;

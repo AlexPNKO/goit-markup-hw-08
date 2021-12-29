@@ -16,9 +16,19 @@
 </head>
      <body>
          <!----------------------------HEADER---------------------------->
-         <!--<header class="header">
+         <header class="header">
              <nav class="header__container container">
                  <a class="logo">Web<span class="logo__dark">Studio</span></a>
+                 <button type="button" class="menu-button is-open" data-menu-button>
+                     <svg 
+                     width=40px 
+                     height=40px
+                     aria-label="Переключатель мобильного меню">
+                         <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+                        <use class="icon-close" href="./images/icons.svg#icon-close"></use>
+                     </svg>
+                 </button>
+                 <div class="menu-container">
                  <ul class="menu-nav">
                      <li class="menu-nav__item"><a href="" class="menu-nav__link --current">Студия</a></li>
                      <li class="menu-nav__item"><a href="./portfolio.html" class="menu-nav__link">Портфолио</a></li>
@@ -40,9 +50,10 @@
                         +38 096 111 11 11
                      </a></li>
                  </ul>
+                </div>
              </nav>
          </header>
-         <main>-->
+         <main>
              <!----------------------------HERO---------------------------->
              <!--<section class="hero">
                  <div class="container">
@@ -323,8 +334,9 @@
              </section>
          </main>-->
             <!----------------------------FOOTER---------------------------->
-        <footer class="footer">
+        <!--<footer class="footer">
             <div class="container">
+                
                 <div class="address">
                     <address>
                         <a class="address__title">Web<span class="address__title-studio">Studio</span></a>
@@ -376,6 +388,7 @@
                             </li>
                         </ul>
                     </div>
+                    
                     <div class="e-mail">
                         <h3 class="e-mail__title">Подпишитесь на рассылку</h3>
                         <form class="subscribe">
@@ -387,7 +400,7 @@
                         </form>
                     </div>
              </div>           
-         </footer>
+         </footer>-->
         <!----------------------------MODAL---------------------------->
         <!--<div class="backdrop is-hidden" data-modal>
             <div class="modal">
