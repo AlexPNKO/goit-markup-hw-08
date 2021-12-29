@@ -887,19 +887,29 @@ ul {
 }
 
 .footer {
-  padding: 60px 0;
   background: #2f303a;
-  display: flex;
+}
+
+@media screen and (min-width: 480px) {
+  .footer {
+    width: 480px;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 .footer .container {
   align-items: baseline;
-  display: flex;
 }
 
 .address {
   flex-grow: 1;
-  margin-right: 70px;
+}
+
+@media screen and (min-width: 480px) {
+  .address {
+    padding: 60px 0;
+  }
 }
 
 .address__title {
@@ -948,8 +958,14 @@ ul {
 }
 
 .soclink__list {
-  display: flex;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .soclink__list {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .soclink__icon {
@@ -983,22 +999,19 @@ ul {
   background-color: #2196f3;
 }
 
-.e-mail {
-  margin-left: 93px;
+@media screen and (min-width: 480px) {
+  .e-mail {
+    padding: 60px 0;
+  }
 }
 
 .e-mail__title {
-  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.subscribe {
-  display: flex;
 }
 
 .subscribe__input {
@@ -1012,6 +1025,13 @@ ul {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe__input {
+    margin: 20px 0;
+    width: 100%;
+  }
 }
 
 .e-input .input::placeholder {
