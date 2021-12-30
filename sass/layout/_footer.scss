@@ -1,5 +1,5 @@
 .footer {
-  padding: 60px 0;
+  padding: 60px 15px;
   background: #2f303a;
   display: flex;
   //width: auto;
@@ -10,6 +10,10 @@
   //display: flex;
   //flex-wrap: wrap;
   text-align: center;
+  @media screen and(min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .address {
