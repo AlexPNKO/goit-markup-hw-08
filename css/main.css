@@ -350,7 +350,18 @@ ul {
 
 .menu-nav {
   display: flex;
-  margin-left: 93px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-nav {
+    margin-left: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-nav {
+    margin-left: 93px;
+  }
 }
 
 .menu-nav__item + .menu-nav__item {
@@ -394,12 +405,19 @@ ul {
 }
 
 .contacts {
-  display: flex;
   margin-left: auto;
 }
 
-.contacts__item + .contacts__item {
-  margin-left: 30px;
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__item + .contacts__item {
+    margin-left: 30px;
+  }
 }
 
 .contacts__link {

@@ -37,7 +37,13 @@
 }
 .menu-nav {
   display: flex;
-  margin-left: 93px;
+  //margin-left: 93px;
+  @media screen and(min-width:768px) {
+    margin-left: 88px;
+  }
+  @media screen and(min-width:1200px) {
+    margin-left: 93px;
+  }
 }
 .menu-nav__item {
   & + & {
@@ -79,12 +85,18 @@
 }
 
 .contacts {
-  display: flex;
+  //display: flex;
   margin-left: auto;
+  @media screen and(min-width:1200px) {
+    display: flex;
+  }
 }
 .contacts__item {
-  & + & {
-    margin-left: 30px;
+  //& + & {margin-left: 30px;}
+  @media screen and(min-width:1200px) {
+    & + & {
+      margin-left: 30px;
+    }
   }
 }
 .contacts__link {
