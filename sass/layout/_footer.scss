@@ -14,11 +14,18 @@
     display: flex;
     flex-wrap: wrap;
   }
+  @media screen and(min-width:1200px) {
+    text-align: left;
+  }
 }
 
 .address {
   flex-grow: 1;
+  @media screen and(min-width: 768px) {
+    flex-grow: 1;
+  }
   //margin-right: 70px;
+  //@media screen and(min-width:480px) {width: 480px;}
 }
 
 .address__title {
@@ -57,7 +64,11 @@
   color: var(--adress-geo-color);
 }
 .soclink {
-  margin: 60px 0;
+  margin: 60px 0px;
+  flex-grow: 1;
+  @media screen and(min-width:1200px) {
+    margin: 0;
+  }
 }
 .soclink__main-title {
   font-weight: 700;
@@ -72,6 +83,9 @@
   display: flex;
   margin-top: 20px;
   justify-content: center;
+  @media screen and(min-width:1200px) {
+    justify-content: inherit;
+  }
 }
 
 .soclink__icon {
@@ -108,7 +122,16 @@
 }
 
 .e-mail {
-  //margin-left: 93px;
+  //margin-left: 93px;'
+  //flex-grow: 1;
+  @media screen and(min-width:768px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  @media screen and(min-width:1200px) {
+    margin: 0;
+  }
 }
 
 .e-mail__title {
