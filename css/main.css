@@ -88,6 +88,7 @@ ul {
 }
 
 .section__title {
+  padding-bottom: 30px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -715,6 +716,10 @@ ul {
   background: #f5f4fa;
 }
 
+.team {
+  margin: -30px -15px;
+}
+
 @media screen and (min-width: 480px) {
   .team {
     width: 480px;
@@ -723,11 +728,10 @@ ul {
 
 @media screen and (min-width: 768px) {
   .team {
+    margin: -15px;
     width: 768px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
   }
 }
 
@@ -739,7 +743,7 @@ ul {
 }
 
 .team__item {
-  margin-top: 30px;
+  margin: 30px 15px;
 }
 
 @media screen and (min-width: 480px) {
@@ -751,8 +755,7 @@ ul {
 @media screen and (min-width: 768px) {
   .team__item {
     width: calc(100% / 2 - 30px);
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 15px;
   }
 }
 
