@@ -326,6 +326,8 @@ ul {
 }
 
 .logo {
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -421,6 +423,7 @@ ul {
 }
 
 .contacts {
+  margin: -10px;
   margin-left: auto;
 }
 
@@ -434,6 +437,10 @@ ul {
   .contacts {
     display: flex;
   }
+}
+
+.contacts__item {
+  margin: 10px;
 }
 
 @media screen and (min-width: 1200px) {
