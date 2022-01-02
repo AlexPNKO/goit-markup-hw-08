@@ -362,6 +362,12 @@ ul {
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .menu-nav {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-nav {
     margin-left: 88px;
@@ -416,6 +422,12 @@ ul {
 
 .contacts {
   margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
