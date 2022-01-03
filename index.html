@@ -168,11 +168,33 @@
                     <div class="about__label"><h3 class="about__title">Десктопные приложения</h3></div>
                    </li>
                    <li class="about__item">
-                    <img class="about__img" src="./images/laptop-1x.jpg" alt="работает с ноутбуком" width="370" height="294">
+                    <picture>
+                        <source srcset="
+                            ./images/laptop-1x.jpg 1x,
+                            ./images/laptop-2x.jpg 2x" 
+                        media="(min-with:1200px)" />
+                    </picture>
+                    <img class="about__img" 
+                    srcset="
+                    ./images/laptop-1x.jpg 1x,
+                    ./images/laptop-2x.jpg 2x
+                    "
+                    src="./images/laptop-1x.jpg" alt="работает с ноутбуком" width="370" height="294">
                     <div class="about__label"><h3 class="about__title">Мобильные приложения</h3></div>
                    </li>
                    <li class="about__item">
-                    <img class="about__img" src="./images/ipad-1x.jpg" alt="работает с планшетом" width="370" height="294">
+                    <picture>
+                        <source srcset="
+                            ./images/ipad-1x.jpg 1x,
+                            ./images/ipad-2x.jpg 2x" 
+                        media="(min-with:1200px)" />
+                    </picture>
+                    <img class="about__img" 
+                    srcset="
+                    ./images/ipad-1x.jpg 1x,
+                    ./images/ipad-2x.jpg 2x
+                    "
+                    src="./images/ipad-1x.jpg" alt="работает с планшетом" width="370" height="294">
                     <div class="about__label"><h3 class="about__title">Дизайнерские решения</h3></div>
                    </li>
                    </ul>
