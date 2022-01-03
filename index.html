@@ -152,7 +152,19 @@
                   <h2 class="section__title">Чем мы занимаемся</h2>
                   <ul class="about">
                    <li class="about__item">
-                    <img class="about__img" src="./images/keyboard-1x.jpg" alt="печатает на клавиатуре" width="370" height="294">
+                       <picture>
+                           <source srcset="
+                           ./images/keyboard-1x.jpg 1x,
+                           ./images/keyboard-2x.jpg 2x"
+                        media="(min-with:1200px)"
+                        />
+                    </picture>
+                    <img class="about__img" 
+                    srcset="
+                    ./images/keyboard-1x.jpg 1x,
+                    ./images/keyboard-2x.jpg 2x
+                    "
+                    src="./images/keyboard-1x.jpg" alt="печатает на клавиатуре" width="370" height="294">
                     <div class="about__label"><h3 class="about__title">Десктопные приложения</h3></div>
                    </li>
                    <li class="about__item">
